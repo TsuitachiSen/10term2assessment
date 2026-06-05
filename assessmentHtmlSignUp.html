@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign Up Page</title>
+		<link rel="icon" type="image/x-icon" href="images/armyLogoCircle.png">
+		<link rel="stylesheet" href="assessmentCss.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<img src="images/armyLogoCircle.png" alt="Army Logo" id="topImg">
+		
+		<h1 id="headTitle">Sign Up Form Generator</h1>
+		<p id="sendDis">Please Send The Following Submission As a Screenshot To army@gmail.com</p>
+		
+		<div class="links">
+			<a href="assessmentHtml.html">Home</a><span> |</span>
+			<a href="assessmentHtmlPhotoGallery.html">Photo Gallery</a><span> |</span>
+			<a href="assessmentHtmlDisclaimer.html">Disclaimer</a><span> |</span>
+			<a href="assessmentHtmlDownloads.html">Downloads</a>
+		</div>
+		
+		<div class="inputs">
+			<h3>Name</h3>
+			<input id="name" style="color: #34252F;"></input><br>
+			<h3>Email</h3>
+			<input id="email" style="color: #34252F;"></input><br>
+			<h3>Phone</h3>
+			<input id="phone" style="color: #34252F;"></input><br>
+			<h3>Letter of Sign Up</h3>
+			<textarea rows="5" cols="40" placeholder="Type letter here..." id="letter" style="color: #34252F;"></textarea>
+		</div>
+		
+		<button id="subButt" onclick="rep()">
+			Generate Submission
+		</button>
+		
+		<div class="submission">
+			<p>
+				Name: <span id="subN"></span><br><br>
+				Email: <span id="subE"></span><br><br>
+				Phone: <span id="subP"></span><br><br>
+				Letter: <br><span id="subL"></span><br>
+			</p>
+		</div>
+		
+		<script>
+			const repN = document.getElementById('subN');
+			const repE = document.getElementById('subE');
+			const repP = document.getElementById('subP');
+			const repL = document.getElementById('subL');
+			
+			function rep() {
+				repN.textContent = document.getElementById('name').value;
+				repE.textContent = document.getElementById('email').value;
+				repP.textContent = document.getElementById('phone').value;
+				repL.textContent = document.getElementById('letter').value;
+				alert('Password: entrylevelpass, 1101');
+			}
+		</script>
+	</body>
+	<footer>
+		<div class="foot">
+		
+			<p id="disclaimer">
+				For all intents and purposes, this website is not a government authorized website nor is it to be seriously used 
+				to sign up for any form of government conscription. This website was created to be used for a school assessment. 
+				For any inquiries regarding the website, please contact google@gmail.com. Copyright© 2026 O.B
+			</p>
+		</div>
+	</footer>
+</html>

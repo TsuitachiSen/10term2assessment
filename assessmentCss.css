@@ -1,0 +1,316 @@
+/*Misc*/
+
+body {
+	background-color: #519872;
+	color: #34252F;
+	font-family: "DM Mono", monospace;
+	text-align: center;
+	background-image: url("images/background.png");
+	animation: scrollBackground 90s linear infinite;
+}
+
+@keyframes scrollBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#headTitle {
+	font-size: 50px;
+}
+
+#aT {
+	color: #3B5249;
+	font-weight: bold;
+}
+
+/*Main Content*/
+
+#topImg {
+	width: 400px;
+	height: 400px;
+	border: 10px solid #3B5249;
+	border-radius: 50%;
+}
+
+.links {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.links > span {
+	color: #3B5249;
+}
+
+a {
+	text-decoration: none;
+	color: #e0e3da;
+}
+
+a:hover {
+	color: #BEC5AD;
+}
+
+.info {
+	font-size: 15px;
+	color: #BEC5AD;
+	background-color: #3B5249;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.tabs {
+	font-size: 15px;
+	font-weight: normal;
+	color: #BEC5AD;
+	background-color: #3B5249;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+.botImg {
+	margin-bottom: 70px;
+}
+
+#bottomImg {
+	border: 2px solid #3B5249;
+	border-radius: 30px;
+	width: 300px;
+	height: 180px;
+}
+
+#bottomImg1 {
+	border: 2px solid #3B5249;
+	border-radius: 30px;
+	width: 300px;
+	height: 180px;
+}
+
+#bottomImg2 {
+	border: 2px solid #3B5249;
+	border-radius: 30px;
+	width: 300px;
+	height: 180px;
+}
+
+#tabsReplace {
+	margin: 10px;
+}
+
+/*Button Styling*/
+
+.buttons {
+	margin: 50px 0 10px 0;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #3B5249;
+	border: 2px solid #BEC5AD;
+	border-radius: 15px;
+	color: #A4B494;
+	font-weight: bold;
+}
+
+button:hover {
+	border: 2px solid #868A7C;
+}
+
+/*Color Scheme*/
+
+#cScheme {
+	width: 97vw;
+	border: 5px solid black;
+	border-radius: 15px;
+	margin-bottom: 100px;
+}
+
+/*footer*/
+
+#disclaimer {
+	color: #BEC5AD;
+	font-size: 10px;
+	text-align: center;
+	overflow: hidden;
+	margin: 20px;
+}
+
+.foot {
+	background-color: #3c634e;
+	width: 100vw;
+	overflow: hidden;
+	margin-left: -8px;
+	position: fixed;
+	bottom: 0;
+}
+
+/*Sign Up Page*/
+
+.inputs {
+	background-color: #3B5249;
+	padding: 10px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	background-image: url('images/eyeBG.png');
+	background-size: 100px 100px;
+}
+
+.inputs > h3 {
+	color: #BEC5AD;
+}
+
+#name, #email, #phone {
+	width: 500px;
+	height: 20px;
+	border: 2px solid #34252F;
+	border-radius: 10px;
+	background-color: #519872;
+}
+
+#letter {
+	width: 500px;
+	height: 100px;
+	margin-bottom: 10px;
+	border: 2px solid #34252F;
+	border-radius: 10px;
+	background-color: #519872;
+}
+
+#subButt {
+	margin-bottom: 20px;
+	width: 200px;
+	height: 50px;
+}
+
+.submission {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	color: #BEC5AD;
+	background-image: url('images/eyeBG.png');
+	background-size: 100px 100px;
+	padding: 70px;
+	border-radius: 30px;
+	margin-bottom: 70px;
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: hidden;
+}
+
+.submission > p {
+	margin-left: 60px;
+}
+
+.submission > span {
+	font-weight: normal;
+}
+
+#sendDis {
+	margin-top: -20px;
+}
+
+/*Photo Gallery*/
+
+.imageInfo {
+	background-color: #3B5249;
+	border-radius: 30px;
+	padding: 40px;
+	font-size: 15px;
+	color: #BEC5AD;
+	margin-bottom: 20px;
+	
+}
+
+.photos {
+	margin-bottom: 70px;
+}
+
+#gImg {
+	border: 2px solid #34252F;
+	width: 30%;
+	height: 220px;
+	border-radius: 15px;
+	transition: filter 0.3s ease;
+}
+
+#gImg:hover {
+	filter: invert(40%);
+}
+
+/*downloads*/
+
+.dnld {
+	background-color: #3B5249;
+	border-radius: 30px;
+	padding: 40px;
+	font-size: 15px;
+	color: #BEC5AD;
+	margin-bottom: 20px;
+}
+
+#password1 {
+	margin-bottom: 30px;
+	width: 500px;
+	height: 20px;
+	border: 2px solid #34252F;
+	border-radius: 10px;
+	background-color: #519872;
+	color: red;
+}
+
+.dnld > input[type="checkbox"] {
+	width: 1.5em;
+	height: 1.5em;
+	accent-color: red;
+	margin-bottom: 30px;
+}
+
+.downloads-entree, .downloads-main {
+	margin-bottom: 10px;
+	visibility: hidden;
+}
+
+.downloads-main {
+	margin-bottom: 100px;
+}
+
+.show-text {
+	visibility: visible;
+}
+
+/*Disclaimer*/
+
+.disclaimerInfo {
+	background-color: #3B5249;
+	border-radius: 30px;
+	padding: 40px;
+	font-size: 25px;
+	color: #BEC5AD;
+	margin-bottom: 20px;
+}
+
+#btxt {
+	font-weight: bold;
+}
+
+.reflinks {
+	background-color: #3B5249;
+	border-radius: 30px;
+	padding: 40px;
+	font-size: 15px;
+	color: #BEC5AD;
+	margin-bottom: 100px;
+	line-height: 2.6;
+}
+
+.reflinks > a {
+	font-size: 20px;
+}
+
+.reflinks > a:hover {
+	font-weight: bold;
+}
